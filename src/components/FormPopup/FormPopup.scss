@@ -1,0 +1,30 @@
+.form-popup {
+	&__avatar {
+		width: 2rem;
+		height: 2rem;
+		border-radius: 50%;
+	}
+	&__input {
+		width: 100%;
+		&::placeholder {
+			font-size: 1rem;
+			padding: 0 .5rem;
+		}
+	}
+	&__submit {
+		position: relative;
+		width: 2rem;
+	}
+	&__send {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid inherit;
+		width: 1.9rem;
+		height: 1.8rem;
+		color: gray;
+	}
+}
